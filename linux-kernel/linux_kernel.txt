@@ -1,0 +1,7 @@
+for checking list of kernels in system
+
+dpkg --list | grep linux-image
+
+remove old linux image
+
+sudo apt remove --purge linux-image-5.7.0-2parrot2-amd64

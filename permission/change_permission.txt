@@ -1,0 +1,7 @@
+chown for change ownership and chmod for change rights
+
+chown -R user directory_name            -------------------------------------------
+
+chown -R user:user directory_name       -------------------------------------------
+          ^    ^   
+ fisrt_owner  second_owner

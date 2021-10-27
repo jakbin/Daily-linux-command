@@ -1,0 +1,53 @@
+1. To create an alias to clear the screen.
+
+$ alias cls='clear'
+
+Use the alias
+
+$ cls
+
+To create an alias 'ls' to change the default action of ls.
+
+2. $ alias ls='ls --a'
+
+Use the alias
+
+$ ls
+
+3. . .. sample.txt
+To create various alias using cd command to go into to sub-sub directories.
+
+$ alias ..='cd ..' 
+$ alias ...='cd ../..'
+$ alias ....='cd ../../..'
+
+Use the alias
+
+$ mkdir sample
+$ cd sample
+$ pwd
+/sample
+$ ..
+$ pwd
+/
+4. To create alias to display present working directory.
+
+$ alias .='echo $PWD'
+
+Use the alias
+
+$ .
+/
+
+5. To create alias to prevent accidental deletion.
+
+$ alias rm='rm -i'
+
+First create a sample.txt file
+
+sample text
+Remove the sample.txt file interactively
+
+$ rm sample.txt
+
+rm: remove regular file 'sample.txt' ? 
