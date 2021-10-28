@@ -51,3 +51,9 @@ Remove the sample.txt file interactively
 $ rm sample.txt
 
 rm: remove regular file 'sample.txt' ? 
+
+### LS & TREE
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias lla='ls -la'
+alias la='ls -A'

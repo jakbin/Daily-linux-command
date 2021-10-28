@@ -24,7 +24,25 @@ alias .='echo $PWD'
 ```bash
 alias rm='rm -i'
 ```
+How to use it.
 ```bash
 rm sample.txt
 rm: remove regular file 'sample.txt' ? 
+```
+6. Some ls alias
+```bash
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias lla='ls -la'
+alias la='ls -A'
+```
+7. Some alias for making command output colorful
+```bash
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias diff='diff --color=auto'
+alias ip='ip --color=auto'
 ```
