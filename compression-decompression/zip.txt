@@ -1,1 +1,76 @@
-zip -r name.zip folder_name
+## Zip
+
+Create zip file 
+
+	zip {output_filename}.zip {input_filename}
+
+Decommpress zip file 
+
+	unzip {filename}.zip
+
+Create zip file from foldder
+
+	zip -r {output_filename}.zip {foldername}
+
+
+## Rar
+
+Create rar file 
+
+	rar a {output_filename}.rar {input_filename}
+
+Decommpress zip file 
+
+	unrar x {filename}.rar
+
+Create zip file from foldder
+
+	rar a {output_filename}.rar {foldername}
+
+
+## Tar
+
+1. For .tar
+
+Create rar file 
+
+	tar -cvf {output_filename}.tar {input_filename}
+
+Decommpress zip file 
+
+	tar -xzvf {filename}.tar
+
+Create zip file from foldder
+
+	tar -cvf {output_filename}.tar {foldername}
+
+
+2. For .tar.gz
+
+Create rar file 
+
+	tar -czvf {output_filename}.tar.gz {input_filename}
+
+Decommpress zip file 
+
+	tar -xvf {filename}.tar.gz
+
+Create zip file from foldder
+
+	tar -czvf {output_filename}.tar.gz {foldername}
+
+
+3. For .tar.bz2
+
+Create rar file 
+
+	tar -cjvf {output_filename}.tar.bz2 {input_filename}
+
+Decommpress zip file 
+
+	tar -xjvf {filename}.tar.bz2
+
+Create zip file from foldder
+
+	tar -czvf {output_filename}.tar.bz2 {foldername}
+

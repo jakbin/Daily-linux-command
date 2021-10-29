@@ -9,8 +9,8 @@ git branch -M main  # no need if you already set your branch name config
 
 ## Add remote repository url
 ```bash
-git remote add origin http://github.com/jakbin/demo-repo.git # https url
-git remote add origin git@github.com:jakbin/demo-repo.git # ssh url
+git remote add origin http://github.com/jakbin/demo-repo.git   # https url
+git remote add origin git@github.com:jakbin/demo-repo.git     # ssh url
 ```
 Use only one.
 
@@ -28,7 +28,7 @@ git push origin main
 git commit -a -m "first commit"
 ```
 
-## if .gitignore detecting file
+## if .gitignore not detecting file
 you can remove that single file from git and again add it to .gitignore
 ```bash
 git rm -r --chached filename
